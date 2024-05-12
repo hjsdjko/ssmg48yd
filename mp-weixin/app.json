@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/zhiyuanzhe/list",
+    "pages/zhiyuanzhe/add-or-update",
+    "pages/zhiyuanzhe/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaotongzhiyin/list",
+    "pages/jiaotongzhiyin/add-or-update",
+    "pages/jiaotongzhiyin/detail",
+    "pages/sushexinxi/list",
+    "pages/sushexinxi/add-or-update",
+    "pages/sushexinxi/detail",
+    "pages/susheshenqing/list",
+    "pages/susheshenqing/add-or-update",
+    "pages/susheshenqing/detail",
+    "pages/zaixianzixun/list",
+    "pages/zaixianzixun/add-or-update",
+    "pages/zaixianzixun/detail",
+    "pages/zixunhuifu/list",
+    "pages/zixunhuifu/add-or-update",
+    "pages/zixunhuifu/detail",
+    "pages/baodaojiezhan/list",
+    "pages/baodaojiezhan/add-or-update",
+    "pages/baodaojiezhan/detail",
+    "pages/baodaoxinxi/list",
+    "pages/baodaoxinxi/add-or-update",
+    "pages/baodaoxinxi/detail",
+    "pages/junxunfuzhuang/list",
+    "pages/junxunfuzhuang/add-or-update",
+    "pages/junxunfuzhuang/detail",
+    "pages/xuangoufuzhuang/list",
+    "pages/xuangoufuzhuang/add-or-update",
+    "pages/xuangoufuzhuang/detail",
+    "pages/yikatongbanli/list",
+    "pages/yikatongbanli/add-or-update",
+    "pages/yikatongbanli/detail",
+    "pages/jiaofeixinxi/list",
+    "pages/jiaofeixinxi/add-or-update",
+    "pages/jiaofeixinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussjunxunfuzhuang/list",
+    "pages/discussjunxunfuzhuang/add-or-update",
+    "pages/discussjunxunfuzhuang/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的新生自助报到系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhiyuanzhe/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "志愿者"
+      },
+      {
+        "pagePath": "pages/sushexinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "宿舍信息"
+      },
+      {
+        "pagePath": "pages/baodaojiezhan/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "报道接站"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
